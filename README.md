@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# React template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to use 🤔
 
-Currently, two official plugins are available:
+1. Create a new repository using this template. You can do this by clicking the "Use this template" button on the repository page or by clicking [here](https://github.com/new?template_name=react-template&template_owner=bitroll-team).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Clone your new repository.
 
-## Expanding the ESLint configuration
+3. Install dependencies.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+pnpm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4. Start the development server.
+
+```bash
+pnpm dev
+```
+
+## Customization 🎨
+
+Note that this template is meant to be customized. Here are some things you might want to change:
+
+- [ ] The `name` field in the [`package.json`](./package.json) file.
+- [ ] The `title` and `<meta>` tags in the [`index.html`](./index.html) file.
+- [ ] The favicons in the [`public/icons`](./public/icons/) folder. You can use [this generator](https://realfavicongenerator.net/) to generate them from an image.
+- [ ] The github username and email in the [`integration.yaml`](./.github/workflows/integration.yaml) file.
