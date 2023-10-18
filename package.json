@@ -2,7 +2,12 @@
   "name": "react-template",
   "version": "0.0.0",
   "type": "module",
-  "keywords": ["react", "template", "typescript", "playwright"],
+  "keywords": [
+    "react",
+    "template",
+    "typescript",
+    "playwright"
+  ],
   "license": "GPL-3.0 license",
   "scripts": {
     "dev": "vite",
@@ -15,6 +20,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.6",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
