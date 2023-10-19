@@ -7,6 +7,9 @@ RUN npm install -g pnpm
 COPY package.json pnpm-lock.yaml ./
 RUN pnpm install
 
+ENV NODE_ENV=production
+ENV VITE_API_BASE_URL=http://localhost:8080
+
 COPY . .
 RUN pnpm build
 
