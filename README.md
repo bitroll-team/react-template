@@ -29,3 +29,4 @@ Note that this template is meant to be customized. Here are some things you migh
 - [ ] The favicons in the [`public/icons`](./public/icons/) folder. You can use [this generator](https://realfavicongenerator.net/) to generate them from an image.
 - [ ] The github username and email in the [`integration.yaml`](./.github/workflows/integration.yaml) file.
 - [ ] The environment variables in the [`Dockerfile`](./Dockerfile) to match your production environment. Note that this is needed because, as React is a client-side framework, the environment variables are embedded in the build.
+- [ ] The [`shadcn/ui`](https://ui.shadcn.com/) theme. As shadcn/ui is a customizable library, you can use a [pre-defined](https://ui.shadcn.com/themes) theme or create your own by modifying the [`src/index.css`](./src/index.css) file.
