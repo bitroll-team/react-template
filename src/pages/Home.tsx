@@ -6,7 +6,7 @@ import { Loader2 } from "lucide-react";
 
 export const Home = () => {
   // Data fetching
-  const { data, error, isLoading, isFetching, hasNextPage, fetchNextPage } =
+  const { data, isLoading, isFetching, hasNextPage, fetchNextPage } =
     useInfiniteQuery({
       queryKey: ["characters"],
       queryFn: getCharactersService,
