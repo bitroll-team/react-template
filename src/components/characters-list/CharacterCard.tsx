@@ -10,7 +10,7 @@ export const CharacterCard = ({ character }: { character: character }) => {
   };
 
   return (
-    <li className="border p-4 flex flex-col items-center gap-2 shadow-sm hover:shadow-md transition-shadow bg-white">
+    <li className="character-card border p-4 flex flex-col items-center gap-2 shadow-sm hover:shadow-md transition-shadow bg-white">
       <img
         src={character.image}
         alt={character.name}
