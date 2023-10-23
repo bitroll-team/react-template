@@ -15,9 +15,6 @@ export const getCharactersService = async ({
   pageParam = 1
 }): Promise<getCharactersResponse> => {
   try {
-    console.log({
-      pageParam
-    });
     const { data } = await axiosInstance.get(`/character/?page=${pageParam}`);
 
     const parsedResponse: getCharactersResponse = {
