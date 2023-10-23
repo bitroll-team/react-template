@@ -1,4 +1,4 @@
-import { NotFoundPage } from "@/pages/index";
+import { Home, NotFoundPage } from "@/pages/index";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import React from "react";
@@ -14,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
